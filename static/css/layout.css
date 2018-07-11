@@ -143,6 +143,7 @@ th, td {
 
 .post .title {
   text-align: center;
+  color: #ffffff;
 }
 
 .post .date {
@@ -285,6 +286,11 @@ th, td {
   font-size: 1.2em;
 }
 
+.subtitle {
+  margin: 0.2em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
 .social-link:hover {
   text-decoration: underline;
 }
