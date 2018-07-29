@@ -12,6 +12,9 @@
   <nav>
     <div class="siteTitle">
       <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+<div class="subtitle">
+  {{ .Site.Params.Subtitle }}
+  </div>
     </div> <!--siteTitle-->
 
     {{ $currentPage := . }}
@@ -22,8 +25,5 @@
   </nav>
 </div>
 
-<div class="subtitle">
-  {{ .Site.Params.Subtitle }}
-  </div>
 
 </header>
