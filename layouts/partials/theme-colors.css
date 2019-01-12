@@ -3,7 +3,7 @@ body {
   color: {{ .Param "colors.text" }};
 }
 
-a { color: {{ .Param "colors.text" }}; }
+a { color: {{ .Param "colors.link" }}; }
 
 pre {
   background: {{ .Param "colors.code-quote-bg" }};
