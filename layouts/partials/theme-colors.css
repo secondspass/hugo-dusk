@@ -7,6 +7,7 @@ a { color: {{ .Param "colors.link" }}; }
 
 pre {
   background: {{ .Param "colors.code-quote-bg" }};
+  background-color: {{ .Param "colors.code-quote-bg" }};
   border: 1px solid {{ .Param "colors.text" }};
   border-radius: 5px;
 }
