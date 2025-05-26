@@ -16,6 +16,11 @@
   <a href="https://twitter.com/{{.}}" target="_blank"><div class="social-link">Twitter</div></a>
   {{end}}
 
+  {{with .Site.Params.mastodon}}
+  <a href="{{.}}" target="_blank"><div class="social-link">Mastodon</div></a>
+  {{end}}
+
+
   {{with .Site.Params.linkedin}}
   <a href="https://www.linkedin.com/in/{{.}}" target="_blank"><div class="social-link">LinkedIn</div></a>
   {{end}}
